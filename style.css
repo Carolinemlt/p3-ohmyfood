@@ -1,0 +1,26 @@
+*{
+  width: 100%;
+  text-align: center;
+}
+
+
+.logo {
+  width: 40%;
+  margin-top: 40px;
+}
+
+.section1, .section3 {
+  background: #f3f3f3f3;
+  
+}
+
+.btn {
+  width: 30%;
+  padding: 20px 10px;
+  font-size: 100%;
+  color: white;
+  border: none;
+  background-color: #9356DC; 
+  border-radius: 50px;
+}
+
