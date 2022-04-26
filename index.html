@@ -1,148 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <title>Accueil</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&family=Shrikhand&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <div class="logo-header"><img src="images/logo/ohmyfood.png" class="logo" title="logo" alt="logo Ohmyfood"></div>
-            <div class="localisation">
-                <span class="material-icons material-icons-location">location_on</span>
-                <form >
-                     <input type="text" class="localisation-txt" value="Paris, Belleville">
-                </form>
-            </div>
-        </header>
-
-        <section class="section-resa">
-            <h1>Réservez le menu qui vous convient</h1>
-            <p class="section-resa-txt">Découvrez des restaurants d'exception,<br/> séléctionnés par nos soins.</p>
-            <input type="button" class="btn" value="Explorer nos restaurants"></input>
-        </section>
-        <section class="section-fonctionnement">
-            <h2>Fonctionnement</h2>
-            <div class="fonctionnement-box-container">
-                <div class="section-fonctionnement-box">
-                    <p class="section-fonctionnement-nb">1</p>
-                    <div class="section-fonctionnement-txt">
-                        <span class="material-icons">phone_android</span>
-                        <p>Choisissez un restaurant</p>
+        <div class="loader-background">
+            <span class="loader-txt">C</span>
+            <span class="loader-txt">h</span>
+            <span class="loader-txt">a</span>
+            <span class="loader-txt">r</span>
+            <span class="loader-txt">g</span>
+            <span class="loader-txt">e</span>
+            <span class="loader-txt">m</span>
+            <span class="loader-txt">e</span>
+            <span class="loader-txt">n</span>
+            <span class="loader-txt">t</span>
+            <span class="loader-txt">.</span>
+            <span class="loader-txt">.</span>
+            <span class="loader-txt">.</span>
+            <div class="loader"></div>
+        </div>
+        <div class="page-index">
+            <header>
+                <div class="logo-header"><img src="images/logo/ohmyfood.png" class="logo" title="logo" alt="logo Ohmyfood"></div>
+                <div class="localisation">
+                    
+                    <form >
+                        <label class="material-icons material-icons-location">location_on</label>
+                        <input type="text" class="localisation-txt" value="Paris, Belleville">
+                    </form>
+                </div>
+            </header>
+            <section class="section-resa">
+                <h1>Réservez le menu qui vous convient</h1>
+                <p class="section-resa-txt">Découvrez des restaurants d'exception,<br/> séléctionnés par nos soins.</p>
+                <input type="button" class="btn" value="Explorer nos restaurants">
+            </section>
+            <section class="section-fonctionnement">
+                <h2>Fonctionnement</h2>
+                <div class="fonctionnement-box-container">
+                    <div class="section-fonctionnement-box">
+                        <p class="section-fonctionnement-nb">1</p>
+                        <div class="section-fonctionnement-txt">
+                            <span class="material-icons">phone_android</span>
+                            <p>Choisissez un restaurant</p>
+                        </div>
+                    </div>
+                    <div class="section-fonctionnement-box">
+                        <p class="section-fonctionnement-nb">2</p>
+                        <div class="section-fonctionnement-txt">
+                            <span class="material-icons">format_list_bulleted</span>
+                            <p>Composez votre menu</p>
+                        </div>
+                    </div>
+                    <div class="section-fonctionnement-box">
+                        <p class="section-fonctionnement-nb">3</p>
+                        <div class="section-fonctionnement-txt">
+                            <span class="material-icons">storefront</span>
+                            <p>Dégustez au restaurant</p>
+                        </div>
                     </div>
                 </div>
-                <div class="section-fonctionnement-box">
-                    <p class="section-fonctionnement-nb">2</p>
-                    <div class="section-fonctionnement-txt">
-                        <span class="material-icons">format_list_bulleted</span>
-                        <p>Composez votre menu</p>
-                    </div>
-                </div>
-                <div class="section-fonctionnement-box">
-                    <p class="section-fonctionnement-nb">3</p>
-                    <div class="section-fonctionnement-txt">
-                        <span class="material-icons">storefront</span>
-                        <p>Dégustez au restaurant</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-resto">
-            <h2>Restaurants</h2>
-            <div class="resto-box-container">
-                <div class="card-container-top">
-                    <div class="card-container">
-                        <a href="page-1.html">
-                            <div class="card-container-image">
-                                <img class ="card-img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" title="Restaurant La palette du goût" alt="Restaurant La palette du goût">
-                            </div>
-                        </a>    
-                        <p class="new">Nouveau</p>
-                        <div class="card-body">
+            </section>
+            <section class="section-resto">
+                <h2>Restaurants</h2>
+                <div class="resto-box-container">
+                    <div class="card-container-top">
+                        <div class="card-container">
                             <a href="page-1.html">
-                                <h3 class="card-title">La palette du goût</h3>
-                            </a>
-                            <a href="page-1.html">
-                                <p class="card-txt">Ménilmontant</p>
-                            </a>
-                            <div class="card-heart">
-                                <span class="material-icons material-icons-heart">favorite_border</span>
-                                <span class="material-icons material-icons-heart2">favorite</span>
+                                <div class="card-container-image">
+                                    <img class ="card-img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" title="Restaurant La palette du goût" alt="Restaurant La palette du goût">
+                                </div>
+                            </a>    
+                            <p class="new">Nouveau</p>
+                            <div class="card-body">
+                                <a href="page-1.html">
+                                    <h3 class="card-title">La palette du goût</h3>
+                                </a>
+                                <a href="page-1.html">
+                                    <p class="card-txt">Ménilmontant</p>
+                                </a>
+                                <div class="card-heart">
+                                    <span class="material-icons material-icons-heart">favorite_border</span>
+                                    <span class="material-icons material-icons-heart2">favorite</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-container">
-                        <a href="page-2.html">
-                            <div class="card-container-image">
-                                <img class ="card-img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" title="Restaurant La note enchantée" alt="Restaurant La note enchantée">
-                            </div>
-                        </a>    
-                        <p class="new">Nouveau</p>
-                        <div class="card-body">
+                        <div class="card-container">
                             <a href="page-2.html">
-                                <h3 class="card-title">La note enchantée</h3>
-                            </a>
-                            <a href="page-2.html">
-                                <p class="card-txt">Charonne</p>
-                            </a>
-                            <div class="card-heart">
-                                <span class="material-icons material-icons-heart">favorite_border</span>
-                                <span class="material-icons material-icons-heart2">favorite</span>
+                                <div class="card-container-image">
+                                    <img class ="card-img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" title="Restaurant La note enchantée" alt="Restaurant La note enchantée">
+                                </div>
+                            </a>    
+                            <p class="new">Nouveau</p>
+                            <div class="card-body">
+                                <a href="page-2.html">
+                                    <h3 class="card-title">La note enchantée</h3>
+                                </a>
+                                <a href="page-2.html">
+                                    <p class="card-txt">Charonne</p>
+                                </a>
+                                <div class="card-heart">
+                                    <span class="material-icons material-icons-heart">favorite_border</span>
+                                    <span class="material-icons material-icons-heart2">favorite</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>  
-                <div class="card-container-bottom">
-                    <div class="card-container">
-                        <a href="page-3.html">
-                            <div class="card-container-image">
-                                <img class ="card-img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" title="Restaurant A la française" alt="Restaurant A la française">
-                            </div>
-                        </a>
-                        <div class="card-body">
+                    </div>  
+                    <div class="card-container-bottom">
+                        <div class="card-container">
                             <a href="page-3.html">
-                                <h3 class="card-title">A la française</h3>
+                                <div class="card-container-image">
+                                    <img class ="card-img" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" title="Restaurant A la française" alt="Restaurant A la française">
+                                </div>
                             </a>
-                            <a href="page-3.html">
-                                <p class="card-txt">Cité Rouge</p>
-                            </a>
-                            <div class="card-heart">
-                                <span class="material-icons material-icons-heart">favorite_border</span>
-                                <span class="material-icons material-icons-heart2">favorite</span>
+                            <div class="card-body">
+                                <a href="page-3.html">
+                                    <h3 class="card-title">A la française</h3>
+                                </a>
+                                <a href="page-3.html">
+                                    <p class="card-txt">Cité Rouge</p>
+                                </a>
+                                <div class="card-heart">
+                                    <span class="material-icons material-icons-heart">favorite_border</span>
+                                    <span class="material-icons material-icons-heart2">favorite</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-container">
-                        <a href="page-4.html">
-                            <div class="card-container-image">
-                                <img class ="card-img" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" title="Restaurant Le délice des sens" alt="Restaurant Le délice des sens">
-                            </div>
-                        </a>
-                        <div class="card-body">
+                        <div class="card-container">
                             <a href="page-4.html">
-                                <h3 class="card-title">Le délice des sens</h3>
+                                <div class="card-container-image">
+                                    <img class ="card-img" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" title="Restaurant Le délice des sens" alt="Restaurant Le délice des sens">
+                                </div>
                             </a>
-                            <a href="page-4.html">
-                                <p class="card-txt">Folie-Méricourt</p>
-                            </a>
-                            <div class="card-heart">
-                                <span class="material-icons material-icons-heart">favorite_border</span>
-                                <span class="material-icons material-icons-heart2">favorite</span>
+                            <div class="card-body">
+                                <a href="page-4.html">
+                                    <h3 class="card-title">Le délice des sens</h3>
+                                </a>
+                                <a href="page-4.html">
+                                    <p class="card-txt">Folie-Méricourt</p>
+                                </a>
+                                <div class="card-heart">
+                                    <span class="material-icons material-icons-heart">favorite_border</span>
+                                    <span class="material-icons material-icons-heart2">favorite</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer>
-            <h4 class="footer-title">ohmyfood</h4>
-            <ul>
-                <li><a href=""><span class="material-icons material-icons-footer">restaurant</span>Proposer un restaurant</a></li>
-                <li><a href=""><span class="material-icons material-icons-footer">handshake</span>Devenir partenaire</a></li>
-                <li><a href="">Mentions légales</a></li>
-                <li><a href="">Contact</a></li>
-        </footer>
+            </section>
+            <footer>
+                <h4 class="footer-title">ohmyfood</h4>
+                <ul>
+                    <li><a href="#"><span class="material-icons material-icons-footer">restaurant</span>Proposer un restaurant</a></li>
+                    <li><a href="#"><span class="material-icons material-icons-footer">handshake</span>Devenir partenaire</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </footer>
+        </div>
     </body>
 </html>
