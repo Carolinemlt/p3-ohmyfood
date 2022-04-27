@@ -472,7 +472,7 @@ li a{
 .card-heart-menu{
   width: fit-content;
   position: absolute;
-  right: 40px;
+  right: 15px;
   cursor: pointer;
 }
 .menu h1, .menu h2, .menu-box-title, .menu-txt{
